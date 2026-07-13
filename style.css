@@ -1,0 +1,45 @@
+body {
+  max-width: 40em;
+  margin: 2.5em auto;
+  padding: 0 1.25em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #111;
+  background: #fff;
+}
+
+header {
+  font-size: .95em;
+  margin-bottom: 2.5em;
+}
+
+header a { margin: 0 .15em; }
+
+h1 { font-size: 1.7em; line-height: 1.2; margin: 0 0 .15em; }
+h2 { font-size: 1.25em; margin: 2em 0 .5em; }
+
+a { color: #0000ee; }
+a:visited { color: #551a8b; }
+
+.meta { color: #666; font-size: .85em; }
+.subtitle { font-style: italic; color: #444; margin: 0 0 1.5em; }
+
+ul.posts { list-style: none; padding: 0; }
+ul.posts li { margin: .4em 0; }
+ul.posts .meta { margin-left: .5em; }
+
+article h1 { margin-bottom: .1em; }
+article .meta { margin-top: 0; }
+
+hr { border: none; border-top: 1px solid #ccc; margin: 2.5em 0; }
+
+.backlink { margin-top: 3em; }
+
+footer {
+  margin-top: 4em;
+  padding-top: 1em;
+  border-top: 1px solid #ccc;
+  color: #666;
+  font-size: .85em;
+}

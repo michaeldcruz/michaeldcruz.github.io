@@ -1,0 +1,18 @@
+title: Mike Cruz
+tagline: Building the AI-native company, in public.
+description: >-
+  Notes on running a lights-out software factory and helping companies
+  move up the stack.
+author: Mike Cruz
+url: "https://michaeldcruz.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+# Files Jekyll should ignore
+exclude:
+  - README.md

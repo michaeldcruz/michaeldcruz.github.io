@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+</head>
+<body>
+
+<header>
+  <a href="{{ '/' | relative_url }}">home</a> &middot;
+  <a href="{{ '/about/' | relative_url }}">about</a> &middot;
+  <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+</header>
+
+<main>
+{{ content }}
+</main>
+
+<footer>
+  <p>Mike Cruz. Building <a href="https://alwayscoach.com">Always Coach</a>.</p>
+</footer>
+
+</body>
+</html>
