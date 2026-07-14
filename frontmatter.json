@@ -1,0 +1,47 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.content.defaultFilePrefix": "{{year}}-{{month}}-{{day}}",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Posts",
+      "path": "[[workspace]]/_posts"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "filePrefix": "{{year}}-{{month}}-{{day}}",
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Layout",
+          "name": "layout",
+          "type": "string",
+          "default": "post"
+        }
+      ]
+    }
+  ]
+}
