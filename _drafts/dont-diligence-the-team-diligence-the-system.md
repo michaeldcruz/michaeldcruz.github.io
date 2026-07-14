@@ -4,18 +4,25 @@ title: "Don't Diligence the Team. Diligence the System."
 subtitle: "For investors: in an AI-native world, the question is not how good the engineers are. It's how legible and automatable the thing they built is. Here's what to look for."
 ---
 
-> Draft. A note for the folks writing checks. Adapts the "benchmark engineering before you wire the money" idea, then inverts what you should be benchmarking.
+Technical diligence has always sized up the people. The pedigree of the founders, the seniority of the team, the velocity of the org, how the engineers benchmark against their peers. That made sense when the people were the engine, because you were underwriting their ability to keep building.
 
-## The thesis
+In a world where machines do the routine building, that signal is fading, and a more durable one is taking its place. The question that predicts the next three years is not how good the team is. It is how legible and automatable the system they built is. You are no longer mainly buying this team's output. You are buying the system's capacity to be operated and improved by machines, going forward, largely regardless of who is staffing it today.
 
-Traditional technical diligence sizes up the people: pedigree, headcount, velocity. In a world where machines do the routine building, that's a fading signal. The durable one is the system's legibility. Can an agent read it, watch it, and change it safely? A brilliant team sitting on an illegible system is a liability you're about to pay to untangle. A modest team on a legible, automated one compounds.
+## What you're actually buying
 
-## Beats to develop
+Reframe the asset. A great team on an illegible system is not a bargain. It is a bill you have not been handed yet, because the value of that team is trapped in their heads, the system cannot be safely operated by anything but them, and the moment they leave or the moment you try to scale with agents, you are paying to untangle what they built. A modest team on a legible, automated system is the opposite. The knowledge is in the system, the paths are automated, and the thing compounds no matter who is at the keyboard. You are buying an asset instead of a dependency.
 
-- What you're really buying: not the current team's output, but the system's capacity to be operated and improved by machines going forward.
-- A concrete checklist. Observability that reflects reality. Documentation that matches the running system. Automated paths to production. Clear trust boundaries around untrusted input, money, and data. Evidence the org can distinguish "the agent said it's done" from "the artifact proves it's done."
-- Red flags. Deploys only one person can run. Knowledge trapped in three heads. "We'll add tests later." Autonomy bolted onto a system nobody can see.
-- The founder-facing version of the same lens (link to "Is My Engineering Good Enough? You're Asking the Wrong Question").
+## A concrete checklist
+
+When you look at a system, look for the things that make it operable by machines:
+
+Observability that reflects reality, so the system can be watched and reasoned about from instrumentation, not memory. Documentation that matches the running system rather than flattering an old intention. Automated paths to production, so shipping does not require a person to remember a sequence of manual steps. Clear trust boundaries around the dangerous surfaces, so the parts that read untrusted input cannot reach money or data. And evidence that the org can tell the difference between "the agent said it is done" and "the artifact proves it is done," because that instinct is the tell of a team that has actually run this.
+
+Each of those is a proxy for the same question: can something other than the current humans safely operate and improve this?
+
+## Red flags
+
+The warning signs are the mirror image. A deploy only one person can run. Knowledge trapped in three heads with nothing written down that you would trust. "We will add tests later." Autonomy bolted onto a system nobody can fully see, which is impressive in a demo and terrifying in production. Each of these is a future cost you will inherit, and none of them show up in how fast the team currently ships. A team can look excellent on every traditional metric and still be sitting on a system you will have to substantially rebuild before a machine can touch it.
 
 ## The line
 
@@ -23,4 +30,4 @@ Great engineers on an illegible system is a bill. A legible system is an asset, 
 
 ## So what
 
-Before you wire the money, don't ask how fast they ship. Ask how much of what they ship a machine could safely ship instead, and how much you'd have to rebuild to get there.
+Before you wire the money, change the question. Do not ask how fast they ship. Ask how much of what they ship a machine could safely ship instead, and how much you would have to rebuild to get there. The gap between those two answers is the real thing you are pricing, and it is the one the team's resume will never tell you.
