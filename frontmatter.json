@@ -8,6 +8,10 @@
     {
       "title": "Posts",
       "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "Drafts",
+      "path": "[[workspace]]/_drafts"
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
